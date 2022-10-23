@@ -1,0 +1,7 @@
+migrate_json.migrate_settings:
+  path: '/admin/config/system/migrate-settings'
+  defaults:
+    _title: 'JSON Migrate Settings'
+    _form: 'Drupal\migrate_json\Form\MigrateSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

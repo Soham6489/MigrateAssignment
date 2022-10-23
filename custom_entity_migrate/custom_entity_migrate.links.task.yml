@@ -1,0 +1,22 @@
+entity.mycustomentity.settings:
+  title: 'Settings'
+  route_name: entity.mycustomentity.settings
+  base_route: entity.mycustomentity.settings
+entity.mycustomentity.view:
+  title: 'View'
+  route_name: entity.mycustomentity.canonical
+  base_route: entity.mycustomentity.canonical
+entity.mycustomentity.edit_form:
+  title: 'Edit'
+  route_name: entity.mycustomentity.edit_form
+  base_route: entity.mycustomentity.canonical
+entity.mycustomentity.delete_form:
+  title: 'Delete'
+  route_name: entity.mycustomentity.delete_form
+  base_route: entity.mycustomentity.canonical
+  weight: 10
+entity.mycustomentity.collection:
+  title: 'My Custom Entities'
+  route_name: entity.mycustomentity.collection
+  base_route: system.admin_content
+  weight: 10

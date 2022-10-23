@@ -1,0 +1,10 @@
+entity.mycustomentity.edit_form:
+  route_name: entity.mycustomentity.edit_form
+  group: mycustomentity
+  title: Edit
+
+entity.mycustomentity.delete_form:
+  route_name: entity.mycustomentity.delete_form
+  group: mycustomentity
+  title: Delete
+  weight: 10

@@ -1,0 +1,19 @@
+id: tdrupal
+label: JSON file to mycustomentity
+migration_group: city
+deriver: Drupal\migrate_json\DynamicMapDeriver
+source:
+  plugin: json_file
+
+destination:
+  plugin: entity:mycustomentity
+
+process:
+  label: city
+  row_id: id
+
+migration_dependencies: {}
+dependencies:
+  enforced:
+    module:
+      - migrate_json

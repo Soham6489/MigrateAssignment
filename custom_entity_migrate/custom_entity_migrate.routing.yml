@@ -1,0 +1,7 @@
+entity.mycustomentity.settings:
+  path: 'admin/structure/mycustomentity'
+  defaults:
+    _form: '\Drupal\custom_entity_migrate\Form\MycustomentitySettingsForm'
+    _title: 'My Custom Entity'
+  requirements:
+    _permission: 'administer my custom entity'

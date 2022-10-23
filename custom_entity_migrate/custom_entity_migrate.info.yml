@@ -1,0 +1,6 @@
+name: "Custom Entity to Migrate"
+description: "This module provides the custom entity used by migrate_json module to import json data into."
+type: module
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
